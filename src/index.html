@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body{
+            margin: 0px;
+            padding: 0;
+            background-color: aqua;
+            color: beige;
+            /*height: 100%;*/
+            /*width: 100%;*/
+
+        }
+
+        #info-frame {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            font-family: Arial, sans-serif;
+            z-index: 100;
+        }
+
+        #info-text {
+            margin: 0;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+<!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/18.6.4/tween.umd.js"></script>-->
+<div id="app"></div>
+<script src="main.js" type="module"></script>
+<!--<script src="physics/GravityForce.ts" type="module"></script>-->
+
+<div id="info-frame"  >
+    <p id="info-text">your date here</p>
+</div>
+
+</body>
+</html>
